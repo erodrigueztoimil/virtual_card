@@ -7,58 +7,75 @@ body {
   margin: 50px auto;
   text-align: center;
 }
+
 .app_container .information_container {
   width: 80%;
   margin: auto;
   padding-bottom: 40px;
 }
+
 .app_container .information_container img {
-  width: 100%;
+  width: 80%;
   height: 230px;
   margin-bottom: 20px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-.app_container .information_container h1, .app_container .information_container p {
+
+.app_container .information_container h1,
+.app_container .information_container p {
   margin: 0;
 }
+
 .app_container .information_container h1 {
   padding-top: 20px;
   padding-bottom: 10px;
 }
+
 .app_container .information_container p {
   padding-top: 5px;
 }
+
 .app_container .button_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding: 0 5%;
 }
+
 .app_container .button_container .button {
   width: 40px;
   height: 40px;
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
   border-radius: 50%;
   padding: 10px;
   position: relative;
 }
+
 .app_container .button_container .button a {
   width: 50%;
   height: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
+
 .app_container .button_container .button a img {
   width: 100%;
   height: 100%;
 }
+
 .app_container .button_container .button:last-child a {
   top: 45%;
 }
+
 .app_container .contact_container {
   width: 180px;
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
   display: block;
   margin: 30px auto;
   padding: 18px 0;
@@ -68,5 +85,4 @@ body {
   outline: none;
   text-decoration: none;
 }
-
 /*# sourceMappingURL=main.css.map */

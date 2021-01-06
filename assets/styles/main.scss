@@ -1,4 +1,4 @@
-$button-bg: #EBEBEB;
+$button-bg: #ebebeb;
 
 body {
   // overflow: hidden;
@@ -17,13 +17,14 @@ body {
     padding-bottom: 40px;
 
     img {
-      width: 100%;
+      width: 80%;
       height: 230px;
       margin-bottom: 20px;
       object-fit: cover;
     }
 
-    h1, p {
+    h1,
+    p {
       margin: 0;
     }
 
